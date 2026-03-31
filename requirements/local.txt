@@ -1,7 +1,7 @@
 # requirements to run locally and for development.
 -r requirements.txt
 
-deepdiff==8.6.1
+deepdiff==8.6.2
 pre-commit==3.7.1
 pip-upgrader==1.4.15
 pylint==3.3.9
