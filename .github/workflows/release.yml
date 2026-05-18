@@ -10,7 +10,7 @@ jobs:
       - name: "checkout"
         uses: actions/checkout@v6
       - name: "fetch unshallow"
-        run: git fetch --prune --unshallow
+        run: git fetch --prune
       - name: "list"
         run: pwd && ls -la
       - name: install just
